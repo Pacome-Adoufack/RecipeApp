@@ -42,7 +42,6 @@ const [searchParams] = useSearchParams();
 
   return (
     <div>
-      
       <div className="category-wrapper">
         {loading && <p>Lade Rezepte...</p>}
         {error && <p>{error}</p>}

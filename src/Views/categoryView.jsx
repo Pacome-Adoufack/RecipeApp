@@ -71,13 +71,13 @@ const CategoryView = () => {
   return (
     <div>
       <div className="category-search">
-        <h1 className="category-title">Suche dein Rezept</h1>
+        <h1 className="category-title">Search recipe by category</h1>
 
         {loading && <p>Laden...</p>}
         {error && <p>{error}</p>}
         <div className="dropdown">
           <label className="dropdown-label" htmlFor="category">
-            Kategorie:
+          Category:
           </label>
           <select
             className="dropdown-select"
@@ -86,7 +86,7 @@ const CategoryView = () => {
             onChange={handleCategoryChange}
           >
             <option className="option" value="">
-              Wähle eine Kategorie
+            Choose a category
             </option>
             {categories.map((category) => (
               <option className="option-category" key={category.idCategory} value={category.strCategory}>

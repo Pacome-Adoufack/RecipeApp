@@ -8,6 +8,8 @@ import CategoryView from "./Views/categoryView";
 import Start from "./Components/Start";
 import "./App.css";
 import SearchView from "./Views/SearchView";
+import Login from "./Views/LoginView";
+import LoginView from "./Views/LoginView";
 
 
 function App() {
@@ -59,6 +61,9 @@ function App() {
               <Route path="random" element={<RandomRecipeView />} />
               <Route path="category" element={<CategoryView />} />
               <Route path="search" element={<SearchView />} />
+              <Route path="/" element={<Login />} />
+              <Route path="/login" element={<LoginView />} />
+
             </Route>
           </Routes>
           <div>

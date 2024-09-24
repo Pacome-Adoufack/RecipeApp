@@ -15,14 +15,16 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <h1 className="logo">Wahala Foods</h1>
+        <img className="logo" src="./public/image/Dompaco.png" alt="" />
       </div>
         <nav className="nav-container">
-        <SearchInput />
+         <SearchInput />
           <Link to="/" className="home">
             Home
           </Link>
-          <button className="nav-login">Log in</button>
+          <Link to="/login" className="nav-login">
+            <p className="nav-paragraphe">login</p>
+          </Link>
           <ToggleSwitch />
         </nav>
       

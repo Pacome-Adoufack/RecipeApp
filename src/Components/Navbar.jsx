@@ -10,6 +10,7 @@ const Navbar = () => {
             <Link to="/search" className="nav-link">
             Search
             </Link>
+            
             <Link to="/random" className="nav-link">
             Random
             </Link>

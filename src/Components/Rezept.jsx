@@ -35,7 +35,7 @@ const Rezept = () => {
     <div className='recipe-detail recipe-glasscard'>
     <div className='recipe-card'>
         <h1 className="recipe-h1">{rezept.strMeal}</h1>
-        <img className="recipe-image" style={{height:"300px", width:"300px"}} src={rezept.strMealThumb} alt={rezept.strMeal} />
+        <img className="recipe-image" src={rezept.strMealThumb} alt={rezept.strMeal} />
     </div>
     <div className="ingredient-container">
         <h2 className="ingredient-h2">Ingredients</h2>

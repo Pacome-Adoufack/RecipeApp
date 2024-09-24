@@ -57,28 +57,30 @@ body {
 }
 
 /* Buttons */
-.button-readmore, .button-back {
+.button-readmore {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 10px;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
-.button-readmore:hover, .button-back:hover {
+.button-readmore:hover {
   background-color: #0056b3;
+  text-decoration: underline;
 }
 
 /* Startseite-Bild */
 .start-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Navigationsleiste */
@@ -91,7 +93,10 @@ body {
 }
 
 .logo {
-  margin: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 .home {
@@ -115,10 +120,17 @@ body {
   height: 50px;
   border-radius: 20px;
   border: 3px solid rgb(68, 91, 226);
-  width: 110px;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  position: relative;
+}
+.nav-paragraphe{
+ position: absolute;
+ bottom:-20px;
+ left: 40px;
 }
 
-/* Suchleiste */
 .search-input {
   padding: 10px;
   font-size: 18px;
@@ -268,9 +280,11 @@ h1 {
 .category-random {
   border: 1px solid white;
   padding: 20px;
-  width: 130px;
+  width: 120px;
   height: 220px;
   background-color: white;
+  border-radius: 20px;
+  margin: 20px;
 }
 
 /* Rezept-Detail */
@@ -300,6 +314,8 @@ h1 {
 .recipe-image {
   border-radius: 10px;
   object-fit: cover;
+  width: 250px;
+  height: 250px;
 }
 
 /* Zutaten- und Anweisungscontainer */
@@ -324,6 +340,7 @@ h1 {
   padding: 0;
   border: 1px solid #e0e0e0;
   background-color: #fff;
+  border-radius: 20px;
 }
 
 /* Zutatenliste-Element */
@@ -338,7 +355,7 @@ h1 {
 .instruction-paragraphe {
   background-color: #fff;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -411,7 +428,7 @@ h1 {
 /* Kategorie-Wrapper */
 .category-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   justify-content: center;
   gap: 20px;
   padding: 20px;
@@ -453,10 +470,11 @@ h1 {
 
 /* Kategorie-Bild */
 .category-image {
-  width: 100%;
+  width: 250px;
+  height: 250px;
   height: auto;
   border-radius: 10px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Kategorie-Wrapper-Text */
