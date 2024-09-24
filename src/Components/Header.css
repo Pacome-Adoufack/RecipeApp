@@ -5,23 +5,11 @@
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #e0e0e0;
+  background-color: #1E3A8A ;
+  
 }
-
-.logo-container {
-  flex: 1;
-}
-
-.logo {
-  margin: 0;
-  font-size: 2em;
-  color: #444;
-}
-
 .nav-container {
-  display: flex;
-  align-items: center;
   gap: 20px;
-  background-color: #e49ec1;
   border-radius: 20px;
 }
 
@@ -46,7 +34,6 @@
   border-radius: 20px;
   border: 3px solid rgb(68, 91, 226);
   width: 110px;
-  /* text-align: center; */
   line-height: 50px;
   transition: background-color 0.3s, color 0.3s;
 }

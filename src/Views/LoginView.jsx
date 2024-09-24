@@ -12,7 +12,7 @@ const LoginView = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h2>Signup Page</h2>
+      <h2>Log in to your account</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '15px' }}>
           <input

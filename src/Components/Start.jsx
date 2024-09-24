@@ -38,8 +38,14 @@ const Start = () => {
   return (
     <div>
       <div className="category-random">
-        <Link to="/category" className="category">
-          <img style={{width:"100px", height:"100px", borderRadius:"50%"}}
+        <Link to="/category">
+          <img
+            className="category-drapdown"
+            style={{
+              width: "100px",
+              height: "100px",
+              borderRadius: "50%",
+            }}
             src="./public/image/Dompaco.png"
             alt=""
           />
@@ -50,6 +56,7 @@ const Start = () => {
         {meals.length > 0 ? (
           meals.map((meal) => (
             <Link
+              style={{ textDecoration: "none" }}
               to={`/meal/${meal.idMeal}`}
               className="recipe-detail"
               key={meal.idMeal}>
