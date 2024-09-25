@@ -14,5 +14,4 @@ The Recipe App is a modern and user-friendly application that allows users to br
 ## Installation
 
 1. clon the repository:
-   ```bash
-   [Recipe App](https://recipeapp-7obz.onrender.com/)
+   ### [Recipe App](https://recipeapp-7obz.onrender.com/)
