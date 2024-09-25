@@ -1,8 +1,18 @@
-# React + Vite
+# Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+The Recipe App is a modern and user-friendly application that allows users to browse various recipes and view detailed information about each recipe. The app offers an intuitive user interface and supports both light and dark mode to increase ease of use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Functions
+
+- Recipe search**: Users can search for different recipes and view detailed information about each recipe.
+- **Dark mode**: The app supports a dark mode that can be activated via a toggle switch.
+
+.
+
+## Installation
+
+1. clon the repository:
+   ```bash
+   https://recipeapp-7obz.onrender.com/
