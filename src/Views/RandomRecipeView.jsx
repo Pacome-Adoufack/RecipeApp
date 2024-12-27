@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import suprise from "../assets/image/suprise.jpg";
 
-import RandomRecipe from "../Components/RandomRecipe";
 
 const RandomRecipeView = () => {
   const [loading, setLoading] = useState(false);
@@ -39,8 +39,8 @@ const RandomRecipeView = () => {
           {error && <p>{error}</p>}
           <button onClick={handleRandom}>
             <img
-              style={{ width: "100px", height: "100px", borderRadius: "50%" }}
-              src="./public/image/suprise.jpg"
+              style={{ width: "50px", height: "50px", borderRadius: "50%" }}
+              src={suprise}
               alt=""
             />
           </button>

@@ -4,6 +4,7 @@ import "./Header.css";
 import { useEffect, useContext } from "react";
 import { MealContext } from "./MealContext";
 import SearchInput from "./SearchInput";
+import logo from "../assets/image/Dompaco.png";
 
 const Header = () => {
   const { darkMode } = useContext(MealContext);
@@ -15,7 +16,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img className="logo" src="./public/image/Dompaco.png" alt="" />
+      <Link to="/">
+      <img className="logo" src={logo} alt="" />
+          </Link>
+        
       </div>
         <nav className="nav-container">
          <SearchInput />

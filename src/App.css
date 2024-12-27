@@ -33,9 +33,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 100px;
+  gap: 50px;
   padding: 20px;
-  margin-top: -250px;
+  margin-top: -200px;
 }
 .button-readmore {
   padding: 10px 20px;
@@ -45,7 +45,6 @@ body {
   color: #fff;
   border: none;
   border-radius: 10px;
-  margin-top: 10px;
   transition: background-color 0.3s ease;
 }
 
@@ -308,12 +307,12 @@ h1 {
   display: flex;
   border: 1px solid white;
   padding: 20px;
-  width: 290px;
-  height: 120px;
+  width: 190px;
+  height: 50px;
   background-color: white;
   border-radius: 20px;
   margin-top: 50px;
-  margin-left: 900px;
+  margin-left: 800px;
 }
 .category-drapdown{
   padding: 0px 30px 0px 30px;
@@ -328,6 +327,12 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 600px;
+}
+
+.category-paragraph{
+  font-size: 1.2em;
+  color: #007bff;
+  margin-top: 8px;
 }
 
 .category-title {
@@ -382,6 +387,7 @@ h1 {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  margin-left: 100px;
 }
 
 

@@ -39,16 +39,7 @@ const Start = () => {
     <div>
       <div className="category-random">
         <Link to="/category">
-          <img
-            className="category-drapdown"
-            style={{
-              width: "100px",
-              height: "100px",
-              borderRadius: "50%",
-            }}
-            src="./public/image/Dompaco.png"
-            alt=""
-          />
+          <p className="category-paragraph">Search by category</p>
         </Link>
         <RandomRecipeView />
       </div>
